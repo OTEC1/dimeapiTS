@@ -219,7 +219,7 @@ type  UserConnect = {
     }
 }
 
-export const Connect_with_webfy = functions.https.onRequest(async (req,res) => {
+export const CONNECT_WITH_WEBFLY = functions.https.onRequest(async (req,res) => {
 
 
     cors(req,res, async () => {
@@ -247,7 +247,7 @@ export const Connect_with_webfy = functions.https.onRequest(async (req,res) => {
 
 
 
-export const Get_connect_post_webfy = functions.https.onRequest(async (req,res) => {
+export const GET_CONTACT_WEBFLY = functions.https.onRequest(async (req,res) => {
     cors(req,res, async () => {
         try{
                 let e: UserConnect []  = []
